@@ -4,5 +4,12 @@ module.exports = {
       preProcessor: "scss",
       patterns: []
     }
+  },
+  css: {
+    loaderOptions: {
+      sass: {
+        data: `@import "@/assets/variables.scss";`
+      }
+    }
   }
 };
